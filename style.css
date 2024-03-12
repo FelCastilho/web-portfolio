@@ -295,6 +295,129 @@ a:hover {
   max-width: 100%;
 }
 
+.services {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  font-family: "Sora", sans-serif;
+}
+.services .container-services {
+  display: flex;
+  gap: 50px;
+}
+.services h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.services .icon-services {
+  max-width: 15%;
+}
+.services #icon-phone {
+  max-width: 10%;
+}
+.services .service {
+  background-color: #141414;
+  border-left: 6px solid #FE912C;
+  color: #fff;
+  max-width: 550px;
+  height: 300px;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.services .service:hover {
+  transform: scale(1.1);
+}
+
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  font-family: "Sora", sans-serif;
+}
+.projects h1 {
+  color: #fff;
+}
+.projects .container-projects {
+  display: flex;
+  gap: 80px;
+}
+.projects .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects #banner-void {
+  background-color: white;
+  height: 200px;
+  max-width: 500px;
+}
+.projects #banner-void img {
+  max-width: 50%;
+  display: block;
+}
+.projects #banner-paulo {
+  background-color: #181818;
+  height: 200px;
+  max-width: 500px;
+}
+.projects #banner-paulo span {
+  color: #FAA526;
+}
+.projects .project-text {
+  margin-top: 20px;
+  background-color: #181818;
+  max-width: 550px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+}
+.projects #project-paulo {
+  border-left: 6px solid #FAA526;
+}
+.projects #project-paulo span {
+  color: #FAA526;
+}
+.projects .span-text {
+  color: #FAA526;
+}
+.projects #project-void {
+  border-left: 6px solid #fff;
+}
+.projects .btn-visualizar {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  font-family: "Sora", sans-serif;
+  display: flex;
+  gap: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.projects .btn-visualizar:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #141414;
+  padding: 14px;
+  border-radius: 12px;
+  font-family: "Sora", sans-serif;
+}
+
 @media screen and (max-width: 768px) {
   .profile {
     display: flex;
@@ -312,18 +435,21 @@ a:hover {
     margin-bottom: 40px;
   }
   .about-me {
-    height: 100vh;
-    background-color: #141414;
+    height: 100%;
   }
   .about-me .hero-about {
+    height: 100%;
     background-color: #181818;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
   }
   .about-me .hero-about .hero-about-text {
     width: 100%;
   }
   .about-me .hero-about .hero-about-img {
-    display: none;
+    margin-top: 50px;
+    display: block;
   }
   .about-me .hero-about .hero-about-icons {
     max-width: 20%;
@@ -336,6 +462,96 @@ a:hover {
   }
   .about-me .hero-about .hero-about-icons i {
     font-size: 1.5rem;
+  }
+  .services {
+    height: 100%;
+    padding-bottom: 100px;
+  }
+  .services h1 {
+    margin-top: 100px;
+  }
+  .services .container-services {
+    flex-direction: column;
+    width: 90%;
+  }
+  .services .service:hover {
+    transform: none;
+  }
+  .projects {
+    height: 100%;
+    padding-bottom: 100px;
+  }
+  .projects .title {
+    margin-top: 100px;
+  }
+  .projects .container-projects {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  .projects .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects #banner-void {
+    background-color: white;
+    height: 200px;
+    max-width: 100%;
+  }
+  .projects #banner-void img {
+    max-width: 50%;
+    display: block;
+  }
+  .projects #banner-paulo {
+    background-color: #181818;
+    height: 200px;
+    max-width: 100%;
+  }
+  .projects #banner-paulo span {
+    color: #FAA526;
+  }
+  .projects .project-text {
+    margin-top: 20px;
+    background-color: #181818;
+    height: 250px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+  }
+  .projects #project-paulo {
+    border-left: 6px solid #FAA526;
+  }
+  .projects #project-paulo span {
+    color: #FAA526;
+  }
+  .projects .span-text {
+    color: #FAA526;
+  }
+  .projects #project-void {
+    border-left: 6px solid #fff;
+  }
+  .projects .btn-visualizar {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    font-family: "Sora", sans-serif;
+    display: flex;
+    gap: 10px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .projects .btn-visualizar:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #141414;
+    padding: 14px;
+    border-radius: 12px;
+    font-family: "Sora", sans-serif;
   }
 }
 ::-webkit-scrollbar {

@@ -37,28 +37,6 @@ Site para captação de clientes feito para um estúdio digital iniciando no mer
 
 <br/>
 
-### 📱 Equilibrium:
-
-Aplicativo feito com o intuito de auxiliar o usuário a ter uma vida mais saudável e ajudá-lo a monitorar a saúde.
-
-**Feito com:**
-
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
-[Link para o Repositório 🔗](https://github.com/FelCastilho/equilibrium)
-
-<br/>
-
-### 📱 Lockeey:
-
-Aplicativo gerador a armazenador de senhas, que auxilia o usuário a gerenciar suas senhas com mais segurança. 
-
-**Feito com:**
-
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
-[Link para o Repositório 🔗](
-https://github.com/FelCastilho/lockeey)
 
 ## ⚙️ Tecnologias usadas no meu portfólio:
 
