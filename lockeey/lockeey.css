@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+header #logo-header {
+  max-width: 20%;
+  min-width: 20%;
+}
+
+header h2 {
+  color: #fff;
+}
+
+#apresentacao {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.img-box {
+  max-width: 40%;
+}
+
+.text-box {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+#tela-inicial {
+  background-color: #181818;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+#tela-inicial div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+  width: 100%;
+}
+#tela-inicial div .img-box {
+  max-width: 50%;
+}
+#tela-inicial div .text-box {
+  width: 50%;
+  height: 0vh;
+}
+
+#video {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#video h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#video .video {
+  width: 100%;
+  max-width: 600px;
+}
+#video .video .container-video {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+#video .video .container-video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  header #logo-header {
+    max-width: 50%;
+    min-width: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  header h2 {
+    padding-bottom: 50px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  #apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .img-box {
+    max-width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .text-box {
+    width: 80%;
+    padding-bottom: 50px;
+  }
+  #tela-inicial div {
+    display: flex;
+    flex-direction: column;
+  }
+  #tela-inicial div .img-box {
+    max-width: 80%;
+  }
+  #tela-inicial div .text-box {
+    width: 90%;
+    height: 100%;
+  }
+  #video .video {
+    width: 100%;
+    max-width: 80%;
+  }
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 8px;
+  background-color: #141414;
+}
+
+.profile {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  font-family: "Sora", sans-serif;
+}
+.profile .icon-img-desktop {
+  max-width: 100%;
+}
+.profile .profile-text {
+  color: #fff;
+}
+.profile .profile-text h1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  color: #FF7A00;
+}
+.profile .profile-text p:not(:first-child) {
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+}
+.profile .container-btn {
+  display: flex;
+  gap: 20px;
+}
+.profile .container-btn a {
+  gap: 5px;
+}
+.profile .btn-curriculo {
+  border: 2px solid #FE912C;
+  color: #FE912C;
+  padding: 14px;
+  border-radius: 12px;
+  font-family: "Sora", sans-serif;
+}
+.profile .btn-curriculo:hover {
+  background-color: #E97000;
+  border: 2px solid #E97000;
+  color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  font-family: "Sora", sans-serif;
+}
+.profile .btn-certificados {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  font-family: "Sora", sans-serif;
+}
+.profile .btn-certificados:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #141414;
+  padding: 14px;
+  border-radius: 12px;
+  font-family: "Sora", sans-serif;
+}
+
+.about-me {
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.about-me .hero-about {
+  display: flex;
+  background-color: #141414;
+  width: 80%;
+  padding: 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.about-me .hero-about .hero-about-text {
+  width: 50%;
+  color: #fff;
+  font-family: "Sora", sans-serif;
+}
+.about-me .hero-about .hero-about-text p {
+  margin-top: 50px;
+  line-height: 150%;
+}
+.about-me .hero-about .hero-about-icons {
+  max-width: 50%;
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+.about-me .hero-about .hero-about-icons a {
+  width: 100%;
+  transition: 1.2s;
+}
+.about-me .hero-about .hero-about-icons a:hover {
+  transform: rotate(180deg);
+}
+.about-me .hero-about .hero-about-icons i {
+  border: 2px solid #fff;
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+.about-me .hero-about .hero-about-icons #behance-icon, .about-me .hero-about .hero-about-icons #linkedin-icon, .about-me .hero-about .hero-about-icons #instagram-icon, .about-me .hero-about .hero-about-icons #github-icon {
+  visibility: hidden;
+}
+.about-me .hero-about .hero-about-img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile .icon-img-desktop {
+    display: none;
+  }
+  .profile .profile-text h1 {
+    font-size: 2.5rem;
+  }
+  .profile .profile-text p:not(:first-child) {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+  }
+  .about-me {
+    height: 100vh;
+    background-color: #141414;
+  }
+  .about-me .hero-about {
+    background-color: #181818;
+    padding: 30px;
+  }
+  .about-me .hero-about .hero-about-text {
+    width: 100%;
+  }
+  .about-me .hero-about .hero-about-img {
+    display: none;
+  }
+  .about-me .hero-about .hero-about-icons {
+    max-width: 20%;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .about-me .hero-about .hero-about-icons a {
+    transition: 1.2s;
+  }
+  .about-me .hero-about .hero-about-icons i {
+    font-size: 1.5rem;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E97000;
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  position: relative;
+  background-color: #141414;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Sora", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}/*# sourceMappingURL=lockeey.css.map */

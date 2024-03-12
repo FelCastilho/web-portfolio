@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/*Importando o arquivo com cores*/
+@import "partials/colors";
+@import "partials/header";
+@import "partials/layout";
+@import "partials/scrollbar";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    background-color: $dark-2;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Sora', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-btn a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-btn a img {
+    margin-right: 5px;
+    width: 2.5em; 
+    height: 2em;
+}
+
+.container-btn a span {
+    display: inline-block; 
+}
