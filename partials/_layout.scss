@@ -525,10 +525,7 @@ footer{
         }
     
         .container-icons{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
+            width: 100%;
             gap: 10px;
         }
     
@@ -541,10 +538,24 @@ footer{
             margin-top: 0px;
             text-align: center;
         }
-    
+
         img{
-            max-width: 30%;
+            display: block;
+            margin: auto;
         }
+
+        .first-group{
+            background-color: green;
+        }
+
+        .second-group{
+            background-color: green;
+        }
+
+        .third-group{
+            background-color: green;
+        }
+
     }
 
     footer{

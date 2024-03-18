@@ -618,10 +618,7 @@ footer .name {
     height: 200px;
   }
   .my-techs .container-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
     gap: 10px;
   }
   .my-techs .first-group, .my-techs .second-group, .my-techs .third-group {
@@ -633,7 +630,17 @@ footer .name {
     text-align: center;
   }
   .my-techs img {
-    max-width: 30%;
+    display: block;
+    margin: auto;
+  }
+  .my-techs .first-group {
+    background-color: green;
+  }
+  .my-techs .second-group {
+    background-color: green;
+  }
+  .my-techs .third-group {
+    background-color: green;
   }
   footer {
     flex-direction: column;
