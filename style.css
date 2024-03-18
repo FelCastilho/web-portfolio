@@ -244,55 +244,31 @@ a:hover {
   font-family: "Sora", sans-serif;
 }
 
-.about-me {
-  background-color: #181818;
+.about {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-}
-.about-me .hero-about {
-  display: flex;
-  background-color: #141414;
-  width: 80%;
-  padding: 100px;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 15px;
-}
-.about-me .hero-about .hero-about-text {
-  width: 50%;
-  color: #fff;
+  color: white;
   font-family: "Sora", sans-serif;
 }
-.about-me .hero-about .hero-about-text p {
-  margin-top: 50px;
-  line-height: 150%;
+.about .container-about {
+  background-color: #181818;
+  border-radius: 15px;
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.about-me .hero-about .hero-about-icons {
-  max-width: 50%;
+.about .hero-about-text {
+  max-width: 40%;
+}
+.about .hero-about-icons {
+  margin-top: 20px;
   display: flex;
   gap: 24px;
-  margin-top: 30px;
-}
-.about-me .hero-about .hero-about-icons a {
-  width: 100%;
-  transition: 1.2s;
-}
-.about-me .hero-about .hero-about-icons a:hover {
-  transform: rotate(180deg);
-}
-.about-me .hero-about .hero-about-icons i {
-  border: 2px solid #fff;
-  padding: 10px;
   font-size: 2rem;
-  border-radius: 5px;
-}
-.about-me .hero-about .hero-about-icons #behance-icon, .about-me .hero-about .hero-about-icons #linkedin-icon, .about-me .hero-about .hero-about-icons #instagram-icon, .about-me .hero-about .hero-about-icons #github-icon {
-  visibility: hidden;
-}
-.about-me .hero-about .hero-about-img {
-  max-width: 100%;
 }
 
 .services {
@@ -399,12 +375,15 @@ a:hover {
   border-left: 6px solid #fff;
 }
 .projects .btn-visualizar {
+  margin-top: 10px;
   border: 2px solid #fff;
   color: #fff;
   padding: 14px;
   border-radius: 12px;
   font-family: "Sora", sans-serif;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   width: -moz-fit-content;
   width: fit-content;
@@ -426,20 +405,39 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+.techs .background {
+  background-color: #141414;
+  width: 80%;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60%;
+  border-radius: 10px;
+}
+.techs .container-text {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  align-self: flex-start;
+}
 .techs h1 {
   color: white;
   text-align: center;
   font-family: "Sora", sans-serif;
   border-bottom: 2px solid white;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: flex-start;
 }
-.techs .background {
-  background-color: #141414;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 60vh;
-  border-radius: 10px;
+.techs p {
+  color: white;
+  font-family: "Sora", sans-serif;
+  margin-top: 20px;
+  color: transparent;
 }
 .techs .tech-icon {
   max-width: 100%;
@@ -452,6 +450,9 @@ a:hover {
 .techs .first-group, .techs .second-group, .techs .third-group {
   display: flex;
   gap: 20px;
+}
+.techs img {
+  cursor: pointer;
 }
 
 footer {
@@ -485,34 +486,20 @@ footer .name {
     letter-spacing: 1.5px;
     margin-bottom: 40px;
   }
-  .about-me {
-    height: 100%;
-  }
-  .about-me .hero-about {
-    height: 100%;
-    background-color: #181818;
-    padding: 30px;
+  .about {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
   }
-  .about-me .hero-about .hero-about-text {
-    width: 100%;
+  .about .container-about {
+    height: 60vh;
+    width: 90%;
+    padding: 15px;
   }
-  .about-me .hero-about .hero-about-img {
-    margin-top: 50px;
-    display: block;
+  .about .hero-about-text {
+    max-width: 100%;
   }
-  .about-me .hero-about .hero-about-icons {
-    max-width: 20%;
-    display: flex;
-    gap: 20px;
-    margin-top: 30px;
-  }
-  .about-me .hero-about .hero-about-icons a {
-    transition: 1.2s;
-  }
-  .about-me .hero-about .hero-about-icons i {
-    font-size: 1.5rem;
+  .about img {
+    display: none;
   }
   .services {
     height: 100%;
