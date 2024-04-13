@@ -14,7 +14,7 @@ function hoverItems(){
     let paragraph = document.createElement('p');
 
     html.addEventListener('mouseenter', () => {
-        paragraph.textContent = "Estruturas feita sem HTML5 seguindo estruturas semânticas.";
+        paragraph.textContent = "Estruturas feita em HTML5 seguindo estruturas semânticas.";
         container.appendChild(paragraph);
     });
 
